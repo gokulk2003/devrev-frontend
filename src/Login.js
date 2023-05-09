@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https:/fancy-pear-pangolin.cyclic.app/api/auth/login', {
+      const response = await axios.post('https://fancy-pear-pangolin.cyclic.app/api/auth/login', {
         usernameoremail: usernameOrEmail,
         password,
       });
